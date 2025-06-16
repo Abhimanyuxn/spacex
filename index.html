@@ -25,12 +25,11 @@
       background-attachment: fixed;
     }
 
-    /* Navbar */
     nav {
       position: fixed;
       top: 0;
       width: 100%;
-      background: rgba(0, 0, 0, 0.6);
+      background: rgba(123, 123, 123, 0.6);
       padding: 1rem 2rem;
       display: flex;
       justify-content: space-between;
@@ -60,7 +59,6 @@
       color: #ccc;
     }
 
-    /* Main overlay content */
     .overlay {
       width: 100%;
       height: 100%;
@@ -70,18 +68,10 @@
       align-items: center;
       text-align: center;
       padding: 2rem;
-      padding-top: 80px; /* To make space for navbar */
+      padding-top: 80px;
     }
 
-    .content {
-      max-width: 700px;
-    }
-
-    .content h1 {
-      font-size: 3rem;
-      margin-bottom: 1rem;
-    }
-
+   
     .content p {
       font-size: 1.2rem;
       line-height: 1.6;
@@ -108,35 +98,27 @@
         align-items: flex-start;
       }
 
-      nav ul {
-        margin-top: 0.5rem;
-        flex-direction: column;
-      }
+     
 
       .content h1 {
-        font-size: 2.2rem;
-      }
-
-      .content p {
-        font-size: 1rem;
-      }
+        font-size:39px;
+      }      
     }
   </style>
 </head>
 <body>
-
-  <!-- Navigation -->
   <nav>
-    <div class="logo">SpaceX</div>
+    <div class="logo">
+      <a href="index.html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/SpaceX_Logo_Black.png/1200px-SpaceX_Logo_Black.png" alt="bootstrap " width="300"></a>
+    </div>
     <ul>
-      <li><a href="#">Home</a></li>
+      <li><a href="https://www.spacex.com/">Home</a></li>
       <li><a href="mission.html">Mission</a></li>
       <li><a href="launches.html">Launches</a></li>
       <li><a href="support.html">Contact</a></li>
     </ul>
   </nav>
 
-  <!-- Fullscreen Content -->
   <div class="overlay">
     <div class="content">
       <h1>EXPLORE SPACE</h1>
